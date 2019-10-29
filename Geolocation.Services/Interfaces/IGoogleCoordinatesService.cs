@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Geocoding.Services
 {
-    public interface IGoogleCoordinates
+    public interface IGoogleCoordinatesService
     {
-        public Task<CoordinatesDataModel> GetCoordByPlace(PlaceFormModel model, string apiKey, string apiUrl);
+        public Task<CoordinatesDataModel> GetCoordByPlace(PlaceFormModel model);
     }
 }

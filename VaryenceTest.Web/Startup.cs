@@ -21,7 +21,7 @@ namespace VaryenceTest.Web
         {
 
             services.AddControllersWithViews();
-            services.AddTransient<IGoogleCoordinates, GoogleCoordinates>();      
+            services.AddTransient<IGoogleCoordinatesService, GoogleCoordinatesService>();      
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";

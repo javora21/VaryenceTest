@@ -14,9 +14,9 @@ namespace VaryenceTest.Web.Controllers
     [ApiController]
     public class GeocodingController : ControllerBase
     {
-        private IGoogleCoordinates _googleCoordinates;
+        private IGoogleCoordinatesService _googleCoordinates;
         private IConfiguration _configuration;
-        public GeocodingController(IGoogleCoordinates googleCoordinates,IConfiguration configuration)
+        public GeocodingController(IGoogleCoordinatesService googleCoordinates,IConfiguration configuration)
         {
             _googleCoordinates = googleCoordinates;
             _configuration = configuration;
@@ -24,15 +24,12 @@ namespace VaryenceTest.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> GetCoordinates([FromBody] PlaceFormModel model)
         {
-            string key = _configuration["GeocodingApiKey"];
-            string url = _configuration["GeocodingApiUrl"];
-
-            CoordinatesDataModel data = await _googleCoordinates.GetCoordByPlace(model, key, url);
+            CoordinatesDataModel data = await _googleCoordinates.GetCoordByPlace(model);
             if (data.Location == null)
             {
                 data.Location = "Error";
-                data.Latitude = "";
-                data.Longitude = "";
+                data.Latitude = 0;
+                data.Longitude = 0;
             }
                             
            return Ok(data);
