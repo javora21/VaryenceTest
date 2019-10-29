@@ -1,0 +1,8 @@
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\bin\Debug\netcoreapp3.0\Geocoding.Data.deps.json
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\bin\Debug\netcoreapp3.0\Geocoding.Data.dll
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\bin\Debug\netcoreapp3.0\Geocoding.Data.pdb
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\obj\Debug\netcoreapp3.0\Geocoding.Data.csprojAssemblyReference.cache
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\obj\Debug\netcoreapp3.0\Geocoding.Data.AssemblyInfoInputs.cache
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\obj\Debug\netcoreapp3.0\Geocoding.Data.AssemblyInfo.cs
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\obj\Debug\netcoreapp3.0\Geocoding.Data.dll
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Data\obj\Debug\netcoreapp3.0\Geocoding.Data.pdb

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5F438D28-6A0E-455D-B148-1A0656B1308E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{18C28861-920B-4672-895D-BC7169F74A86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Data", "Geolocation.Data\Geocoding.Data.csproj", "{3B5BD030-AF10-4658-BCE6-259576604708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Services", "Geolocation.Services\Geocoding.Services.csproj", "{058A21AC-0317-4178-BC4A-579D0CC9C60C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaryenceTest.Web", "VaryenceTest.Web\VaryenceTest.Web.csproj", "{F55870E1-D6B4-4A76-AE65-519A909CF9BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5BD030-AF10-4658-BCE6-259576604708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5BD030-AF10-4658-BCE6-259576604708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5BD030-AF10-4658-BCE6-259576604708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5BD030-AF10-4658-BCE6-259576604708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058A21AC-0317-4178-BC4A-579D0CC9C60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058A21AC-0317-4178-BC4A-579D0CC9C60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058A21AC-0317-4178-BC4A-579D0CC9C60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058A21AC-0317-4178-BC4A-579D0CC9C60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55870E1-D6B4-4A76-AE65-519A909CF9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55870E1-D6B4-4A76-AE65-519A909CF9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55870E1-D6B4-4A76-AE65-519A909CF9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55870E1-D6B4-4A76-AE65-519A909CF9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B5BD030-AF10-4658-BCE6-259576604708} = {5F438D28-6A0E-455D-B148-1A0656B1308E}
+		{058A21AC-0317-4178-BC4A-579D0CC9C60C} = {18C28861-920B-4672-895D-BC7169F74A86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C404C7EF-CDD7-4E42-83BF-8AAF507416BE}
+	EndGlobalSection
+EndGlobal

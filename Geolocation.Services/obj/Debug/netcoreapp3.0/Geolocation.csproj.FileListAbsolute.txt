@@ -1,0 +1,11 @@
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\obj\Debug\netcoreapp3.0\Geolocation.csprojAssemblyReference.cache
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\obj\Debug\netcoreapp3.0\Geolocation.AssemblyInfoInputs.cache
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\obj\Debug\netcoreapp3.0\Geolocation.AssemblyInfo.cs
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\bin\Debug\netcoreapp3.0\Geolocation.deps.json
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\bin\Debug\netcoreapp3.0\Geolocation.dll
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\bin\Debug\netcoreapp3.0\Geolocation.pdb
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\obj\Debug\netcoreapp3.0\Geolocation.dll
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\obj\Debug\netcoreapp3.0\Geolocation.pdb
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\bin\Debug\netcoreapp3.0\Geolocation.Data.dll
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\bin\Debug\netcoreapp3.0\Geolocation.Data.pdb
+C:\Users\javor\source\repos\VaryenceTest\Geolocation.Services\obj\Debug\netcoreapp3.0\Geolocation.csproj.CopyComplete

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Geolocation.Services/1.0.0": {
+        "dependencies": {
+          "Geolocation.Data": "1.0.0"
+        },
+        "runtime": {
+          "Geolocation.Services.dll": {}
+        }
+      },
+      "Geolocation.Data/1.0.0": {
+        "runtime": {
+          "Geolocation.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Geolocation.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Geolocation.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
